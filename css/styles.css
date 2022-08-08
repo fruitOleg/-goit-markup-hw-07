@@ -1,3 +1,9 @@
+/**
+|============================
+| block 1
+|============================
+*/
+
 :root {
   --cubic: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /*fonts*/
@@ -11,19 +17,18 @@
   /*text colors*/
   --main-text-color: #212121;
   --accent-text-color: #2196f3;
-}
+} 
 
+/*
 body {
   font-family: var(--main-fonts), sans-serif;
   color: var(--main-text-color);
 }
 header {
   border-bottom: 1px solid #ececec;
-}
-img {
-  display: block;
-}
+} */
 
+/*
 h1,
 h2,
 h3,
@@ -35,10 +40,30 @@ ul {
   margin: 0;
   padding: 0;
 }
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
-.title {
+.no__scroll {
+  overflow: hidden;
+} */
+
+/* .visually__hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
+
+/* .title {
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
@@ -58,33 +83,17 @@ ul {
 .section:nth-child(2) {
   padding-bottom: 0;
 }
-
 .container {
   width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin-left: auto;
   margin-right: auto;
-}
-.no__scroll {
-  overflow: hidden;
-}
-
-.visually__hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+} */ 
 
 
 /*header*/
+/*
 .logo__head {
   font-family: var(--logo-fonts);
   font-weight: 700;
@@ -164,6 +173,7 @@ ul {
 .contacts__icon:focus {
   fill: var(--accent-text-color);
 }
+*/
 
 /*index html*/
 
