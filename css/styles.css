@@ -172,7 +172,8 @@ img {
 /*index html*/
 
 /*hero section*/
-.section__wrap {
+
+/* .section__wrap {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -221,10 +222,10 @@ img {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/background.jpg);
   background-position: center;
-}
+} */
 
 /*benefits section*/
-.list__benefits {
+/* .list__benefits {
   align-items: center;
   justify-content: center;
   gap: 30px;
@@ -287,11 +288,11 @@ img {
   text-transform: uppercase;
 
   color: #ffffff;
-}
+} */
 
 /*team section*/
 
-.team__bg {
+/* .team__bg {
   background-color: var(--light-bg-color);
 }
 
@@ -354,10 +355,11 @@ img {
 .social__link:hover .social__icon,
 .social__link:focus .social__icon {
   fill: #ffffff;
-}
+} */
 
 /*clients section*/
-.clients__list {
+
+/* .clients__list {
   align-items: center;
   justify-content: center;
   gap: 30px;
@@ -386,12 +388,12 @@ img {
 .clients__link:hover .clients__icon,
 .clients__link:focus .clients__icon {
   fill: #2196f3;
-}
+} */
 
 /*portfolio*/
 
 /*section*/
-.portfolio__section {
+/* .portfolio__section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -428,10 +430,11 @@ img {
   justify-content: center;
   display: flex;
   gap: 8px;
-}
+} */
 
 /*portfolio cards*/
-.wrap__portfolio--flex {
+
+/* .wrap__portfolio--flex {
   padding: 0;
   margin: 0;
   margin-top: 50px;
@@ -503,7 +506,7 @@ img {
   line-height: 28px;
   letter-spacing: 0.03em;
   color: #ffffff;
-}
+} */
 
 /*footer*/
 
@@ -641,7 +644,7 @@ img {
 }
 */
 /*modal window*/
-.backdrop {
+/* .backdrop {
   position: fixed;
   left: 0px;
   top: 0px;
@@ -711,8 +714,9 @@ img {
   margin-bottom: 12px;
   display: block;
   text-align: center;
-}
-.modal__form {
+} */
+
+/* .modal__form {
   padding: 40px;
 }
 .modal__label {
@@ -839,4 +843,4 @@ img {
 .modal__form__btn:hover,
 .modal__form__btn:focus {
   background-color: #188ce8;
-}
+} */
